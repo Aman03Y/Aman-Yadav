@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,500&family=Moirai+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap");
+
+.logo {
+  animation-name: logo-animation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  font-family: "Moirai One", cursive;
+  text-shadow:
+    1px 1px #8a2be2,
+    2px 2px #8a2be2,
+    3px 3px #8a2be2;
+}
+
+.menu {
+  animation-name: menu-animation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.list {
+  animation-name: list-animation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  font-family: "Bitter", serif;
+}
+
+.contact {
+  animation-name: contact-animation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  font-family: "Bitter", serif;
+}
+
+.about {
+  animation-name: d-animation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.skills {
+  animation-name: d-animation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.coding {
+  animation-name: d-animation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.project {
+  animation-name: d-animation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.list {
+  animation-name: d-animation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.mNav {
+  animation: Nav 0.6s;
+  font-family: "Bitter", serif;
+}
+
+.aboutm {
+  animation-name: mobile;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.skillsm {
+  animation-name: mobile;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.codingm {
+  animation-name: mobile;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.projectm {
+  animation-name: mobile;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.contactm {
+  animation-name: mobile;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes mobile {
+  0% {
+    transform: translateX(50vw);
+  }
+  100% {
+  }
+}
+
+@keyframes Nav {
+  0% {
+    transform: translateX(50vw);
+  }
+  100% {
+  }
+}
+
+@keyframes logo-animation {
+  0% {
+    transform: translateX(-30vw);
+  }
+  100% {
+  }
+}
+
+@keyframes d-animation {
+  0% {
+    transform: translateY(-10vh);
+  }
+  100% {
+  }
+}
+
+@keyframes contact-animation {
+  0% {
+    transform: translateX(30vw);
+  }
+  100% {
+  }
+}
+
+@keyframes menu-animation {
+  0% {
+    transform: translateX(25vw);
+  }
+  100% {
+  }
+}
+
+.active {
+  transform: translateY(-3px) translateX(-3px);
+  color: rgb(251, 191, 36);
+  font-size: 26px;
+  transition-duration: 400ms;
+}
+
+.activeContact {
+  transform: translateY(3px) translateX(3px);
+  color: rgb(251, 191, 36) !important;
+  font-size: 20px !important;
+  transition-duration: 400ms;
+  box-shadow: 2px 2px 6px #8a2be2;
+}

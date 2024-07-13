@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+
+.aboutme {
+  animation: about-me 1s ease-in-out;
+  font-family: "Graduate", serif;
+  box-shadow: 0px 1px 0.5px #8a2be2;
+}
+
+.about-icon {
+  font-family: "Monoton", cursive;
+  border-radius: 50%;
+  text-shadow:
+    0 0.1vh 1vh #8a2be2,
+    0 -0.1vh 1vh #8a2be2,
+    0.1vw 0 1vh #8a2be2,
+    -0.1vw 0 1vh #8a2be2;
+  animation: about-icon-animation 1s ease-in-out;
+}
+
+.description {
+  font-family: "Fauna One", serif;
+  animation: description-animation 1s ease-in-out;
+}
+
+.tag {
+  font-family: "Charm", cursive;
+  animation: tag-animation 1s ease-in-out;
+}
+
+.read-btn {
+  font-family: "Bitter", serif;
+  animation: read-btn-animation 1s ease-in-out;
+}
+
+@keyframes read-btn-animation {
+  0% {
+    transform: translateY(50vh);
+  }
+  100% {
+  }
+}
+
+@keyframes about-me {
+  0% {
+    transform: translateX(90vw);
+  }
+  100% {
+  }
+}
+
+@keyframes about-icon-animation {
+  0% {
+    transform: translateX(-90vw);
+  }
+  100% {
+  }
+}
+
+@keyframes description-animation {
+  0% {
+    transform: translateX(90vw);
+  }
+  100% {
+  }
+}
+
+@keyframes tag-animation {
+  0% {
+    transform: translateX(90vw);
+  }
+  100% {
+  }
+}

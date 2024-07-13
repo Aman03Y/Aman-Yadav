@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Charm:wght@700&family=Fauna+One&family=Graduate&display=swap");
+
+.Name {
+  font-family: "Charm", cursive;
+  animation: bio-animation 1s ease-in-out;
+}
+
+.intro {
+  font-family: "Big Shoulders Display", cursive;
+  animation: bio-animation 1s ease-in-out;
+}
+
+.pro {
+  font-family: "Graduate", serif;
+  box-shadow: 0px 1.1px 1px -0.5px #8a2be2;
+  animation: bio-animation 1s ease-in-out;
+}
+
+.desc {
+  font-family: "Fauna One", serif;
+  animation: bio-animation 1s ease-in-out;
+}
+
+.type {
+  text-shadow: 2px 2px 1px #8a2be2;
+}
+
+.image {
+  animation:
+    image-animation 1s ease-in-out,
+    blob-animation 10s infinite linear;
+  box-shadow:
+    0vw 0vh 0vw 0.2vw #8a2be2,
+    0vw 0vh 0vw 0.3vw #953ee6,
+    0vw 0vh 0vw 0.4vw #9b43e8,
+    0vw 0vh 2.2vw #9b43e8;
+}
+
+.bio {
+  animation: bio-animation 1s ease-in-out;
+}
+
+.git {
+  animation: profile-animation 1s ease-in-out;
+}
+
+.linked {
+  animation: profile-animation 1s ease-in-out;
+}
+
+.email {
+  animation: profile-animation 1s ease-in-out;
+}
+
+.btn {
+  font-family: "Bitter", serif;
+  animation: btn-animation 1s ease-in-out;
+  overflow: hidden;
+}
+
+.mbtn {
+  font-family: "Bitter", serif;
+}
+
+.profile-all {
+  animation: profile-animation 1s ease-in-out;
+}
+
+.imagem {
+  animation:
+    image-mobile 1s ease-in-out,
+    blob-animation 10s infinite linear;
+  box-shadow:
+    0vw 0vh 0vw 0.2vw #8a2be2,
+    0vw 0vh 0vw 0.3vw #953ee6,
+    0vw 0vh 0vw 0.4vw #9b43e8,
+    0vw 0vh 2.2vw #9b43e8;
+}
+
+.biom {
+  animation: bio-mobile 1s ease-in-out;
+}
+
+.bio {
+  animation: bio-animation 1s ease-in-out;
+}
+
+.gitm {
+  animation: profile-mobile 1s ease-in-out;
+}
+
+.linkedm {
+  animation: profile-mobile 1s ease-in-out;
+}
+
+.emailm {
+  animation: profile-mobile 1s ease-in-out;
+}
+
+.profile-allm {
+  animation: profile-mobile 1s ease-in-out;
+}
+
+@keyframes blob-animation {
+  0% {
+    border-radius: 50%;
+  }
+  14.285%,
+  28.57% {
+    border-radius: 59% 41% 54% 46% / 44% 61% 39% 56%;
+  }
+  28.57%,
+  42.855% {
+    border-radius: 65% 35% 63% 37% / 37% 65% 35% 63%;
+  }
+  42.855%,
+  57.14% {
+    border-radius: 52% 48% 50% 50% / 45% 50% 50% 55%;
+  }
+  57.14%,
+  71.425% {
+    border-radius: 44% 56% 58% 42% / 53% 60% 40% 47%;
+  }
+  71.425%,
+  85.71% {
+    border-radius: 39% 61% 52% 48% / 45% 42% 58% 55%;
+  }
+  85.71%,
+  95% {
+    border-radius: 43% 57% 47% 53% / 49% 44% 56% 51%;
+  }
+  95%,
+  100% {
+    border-radius: 50%;
+  }
+}
+
+@keyframes profile-mobile {
+  0% {
+    transform: translateY(50vh);
+  }
+  100% {
+  }
+}
+
+@keyframes btn-animation {
+  0% {
+    transform: translateY(50vh);
+  }
+  100% {
+  }
+}
+
+@keyframes profile-animation {
+  0% {
+    transform: translateX(-50vw);
+  }
+  100% {
+  }
+}
+
+@keyframes image-mobile {
+  0% {
+    transform: translateX(80vw);
+  }
+}
+
+@keyframes bio-mobile {
+  0% {
+    transform: translateX(-80vw);
+  }
+}
+
+@keyframes image-animation {
+  0% {
+    transform: translateX(50vw);
+  }
+  100% {
+  }
+}
+
+@keyframes bio-animation {
+  0% {
+    transform: translateX(-70vw);
+  }
+  100% {
+  }
+}
